@@ -1,0 +1,241 @@
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2a16fd56]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@f71c83b]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2a16fd56]
+2024.07.15 23:10:27 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.15 23:10:28 INFO  no build target found for D:\UCSC\FP\Practical05-2\practical05-2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.15 23:10:29 INFO  no build target found for D:\UCSC\FP\Practical05-2\practical05-2\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 15, 2024 11:10:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2024.07.15 23:10:32 INFO  running 'C:\Users\pehan\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin11-binaries\releases\download\jdk-11.0.23%252B9\OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip\jdk-11.0.23+9\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\pehan\AppData\Local\Temp\metals9495408373931078283\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.07.15 23:10:38 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 11.0.23)
+2024.07.15 23:10:40 INFO  [info] loading settings for project practical05-2-build-build from metals.sbt ...
+2024.07.15 23:10:40 INFO  [info] loading project definition from D:\UCSC\FP\Practical05-2\practical05-2\project\project
+2024.07.15 23:10:43 INFO  [info] loading settings for project practical05-2-build from metals.sbt ...
+2024.07.15 23:10:43 INFO  [info] loading project definition from D:\UCSC\FP\Practical05-2\practical05-2\project
+2024.07.15 23:10:46 INFO  [success] Generated .bloop\practical05-2-build.json
+2024.07.15 23:10:46 INFO  [success] Total time: 3 s, completed Jul 15, 2024, 11:10:46 PM
+2024.07.15 23:10:48 INFO  [info] loading settings for project practical05-2 from build.sbt ...
+2024.07.15 23:10:48 INFO  [info] set current project to hello-world (in build file:/D:/UCSC/FP/Practical05-2/practical05-2/)
+2024.07.15 23:10:49 INFO  [success] Generated .bloop\practical05-2-test.json
+2024.07.15 23:10:49 INFO  [success] Generated .bloop\practical05-2.json
+2024.07.15 23:10:49 INFO  [success] Total time: 1 s, completed Jul 15, 2024, 11:10:49 PM
+2024.07.15 23:10:50 INFO  time: ran 'sbt bloopInstall' in 17s
+2024.07.15 23:10:50 INFO  Attempting to connect to the build server...
+2024.07.15 23:10:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\UCSC\FP\Practical05-2\.metals\bsp.trace.json or C:\Users\pehan\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.15 23:10:50 INFO  time: Connected to build server in 0.54s
+2024.07.15 23:10:50 INFO  Connected to Build server: Bloop v1.6.0
+2024.07.15 23:10:50 INFO  running doctor check
+2024.07.15 23:10:50 INFO  java targets: practical05-2-test, practical05-2
+2024.07.15 23:10:52 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.15 23:10:54 INFO  time: indexed workspace in 4.03s
+2024.07.15 23:15:10 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:15:11 INFO  time: compiled practical05-2 in 1.28s
+Jul 15, 2024 11:38:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+2024.07.15 23:38:26 WARN  Using indexes to guess the definition of Book
+Jul 15, 2024 11:38:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didOpen",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/pehan/AppData/Local/Coursier/cache/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%25252B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip/jdk-11.0.23%2B9/lib/src.zip%21/java.desktop/java/awt/print/Book.java",
+      "languageId": "java",
+      "version": 1,
+      "text": "/*\n * Copyright (c) 1997, 2014, Oracle and/or its affiliates. All rights reserved.\n * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.\n *\n * This code is free software; you can redistribute it and/or modify it\n * under the terms of the GNU General Public License version 2 only, as\n * published by the Free Software Foundation.  Oracle designates this\n * particular file as subject to the \"Classpath\" exception as provided\n * by Oracle in the LICENSE file that accompanied this code.\n *\n * This code is distributed in the hope that it will be useful, but WITHOUT\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n * version 2 for more details (a copy is included in the LICENSE file that\n * accompanied this code).\n *\n * You should have received a copy of the GNU General Public License version\n * 2 along with this work; if not, write to the Free Software Foundation,\n * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.\n *\n * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA\n * or visit www.oracle.com if you need additional information or have any\n * questions.\n */\n\npackage java.awt.print;\n\nimport java.util.Vector;\n\n/**\n * The {@code Book} class provides a representation of a document in\n * which pages may have different page formats and page painters. This\n * class uses the {@link Pageable} interface to interact with a\n * {@link PrinterJob}.\n * @see Pageable\n * @see PrinterJob\n*/\n\npublic class Book implements Pageable {\n\n /* Class Constants */\n\n /* Class Variables */\n\n /* Instance Variables */\n\n    /**\n     * The set of pages that make up the Book.\n     */\n    private Vector\u003cBookPage\u003e mPages;\n\n /* Instance Methods */\n\n    /**\n     *  Creates a new, empty {@code Book}.\n     */\n    public Book() {\n        mPages \u003d new Vector\u003c\u003e();\n    }\n\n    /**\n     * Returns the number of pages in this {@code Book}.\n     * @return the number of pages this {@code Book} contains.\n     */\n    public int getNumberOfPages(){\n        return mPages.size();\n    }\n\n    /**\n     * Returns the {@link PageFormat} of the page specified by\n     * {@code pageIndex}.\n     * @param pageIndex the zero based index of the page whose\n     *            {@code PageFormat} is being requested\n     * @return the {@code PageFormat} describing the size and\n     *          orientation of the page.\n     * @throws IndexOutOfBoundsException if the {@code Pageable}\n     *          does not contain the requested page\n     */\n    public PageFormat getPageFormat(int pageIndex)\n        throws IndexOutOfBoundsException\n    {\n        return getPage(pageIndex).getPageFormat();\n    }\n\n    /**\n     * Returns the {@link Printable} instance responsible for rendering\n     * the page specified by {@code pageIndex}.\n     * @param pageIndex the zero based index of the page whose\n     *                  {@code Printable} is being requested\n     * @return the {@code Printable} that renders the page.\n     * @throws IndexOutOfBoundsException if the {@code Pageable}\n     *            does not contain the requested page\n     */\n    public Printable getPrintable(int pageIndex)\n        throws IndexOutOfBoundsException\n    {\n        return getPage(pageIndex).getPrintable();\n    }\n\n    /**\n     * Sets the {@code PageFormat} and the {@code Painter} for a\n     * specified page number.\n     * @param pageIndex the zero based index of the page whose\n     *                  painter and format is altered\n     * @param painter   the {@code Printable} instance that\n     *                  renders the page\n     * @param page      the size and orientation of the page\n     * @throws IndexOutOfBoundsException if the specified\n     *          page is not already in this {@code Book}\n     * @throws NullPointerException if the {@code painter} or\n     *          {@code page} argument is {@code null}\n     */\n    public void setPage(int pageIndex, Printable painter, PageFormat page)\n        throws IndexOutOfBoundsException\n    {\n        if (painter \u003d\u003d null) {\n            throw new NullPointerException(\"painter is null\");\n        }\n\n        if (page \u003d\u003d null) {\n            throw new NullPointerException(\"page is null\");\n        }\n\n        mPages.setElementAt(new BookPage(painter, page), pageIndex);\n    }\n\n    /**\n     * Appends a single page to the end of this {@code Book}.\n     * @param painter   the {@code Printable} instance that\n     *                  renders the page\n     * @param page      the size and orientation of the page\n     * @throws NullPointerException\n     *          If the {@code painter} or {@code page}\n     *          argument is {@code null}\n     */\n    public void append(Printable painter, PageFormat page) {\n        mPages.addElement(new BookPage(painter, page));\n    }\n\n    /**\n     * Appends {@code numPages} pages to the end of this\n     * {@code Book}.  Each of the pages is associated with\n     * {@code page}.\n     * @param painter   the {@code Printable} instance that renders\n     *                  the page\n     * @param page      the size and orientation of the page\n     * @param numPages  the number of pages to be added to the\n     *                  this {@code Book}.\n     * @throws NullPointerException\n     *          If the {@code painter} or {@code page}\n     *          argument is {@code null}\n     */\n    public void append(Printable painter, PageFormat page, int numPages) {\n        BookPage bookPage \u003d new BookPage(painter, page);\n        int pageIndex \u003d mPages.size();\n        int newSize \u003d pageIndex + numPages;\n\n        mPages.setSize(newSize);\n        for(int i \u003d pageIndex; i \u003c newSize; i++){\n            mPages.setElementAt(bookPage, i);\n        }\n    }\n\n    /**\n     * Return the BookPage for the page specified by \u0027pageIndex\u0027.\n     */\n    private BookPage getPage(int pageIndex)\n        throws ArrayIndexOutOfBoundsException\n    {\n        return mPages.elementAt(pageIndex);\n    }\n\n    /**\n     * The BookPage inner class describes an individual\n     * page in a Book through a PageFormat-Printable pair.\n     */\n    private class BookPage {\n        /**\n         *  The size and orientation of the page.\n         */\n        private PageFormat mFormat;\n\n        /**\n         * The instance that will draw the page.\n         */\n        private Printable mPainter;\n\n        /**\n         * A new instance where \u0027format\u0027 describes the page\u0027s\n         * size and orientation and \u0027painter\u0027 is the instance\n         * that will draw the page\u0027s graphics.\n         * @throws  NullPointerException\n         *          If the {@code painter} or {@code format}\n         *          argument is {@code null}\n         */\n        BookPage(Printable painter, PageFormat format) {\n\n            if (painter \u003d\u003d null || format \u003d\u003d null) {\n                throw new NullPointerException();\n            }\n\n            mFormat \u003d format;\n            mPainter \u003d painter;\n        }\n\n        /**\n         * Return the instance that paints the\n         * page.\n         */\n        Printable getPrintable() {\n            return mPainter;\n        }\n\n        /**\n         * Return the format of the page.\n         */\n        PageFormat getPageFormat() {\n            return mFormat;\n        }\n    }\n}\n"
+    }
+  }
+}
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 199: jar:file:///C:/Users/pehan/AppData/Local/Coursier/cache/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip/jdk-11.0.23 9/lib/src.zip!/java.desktop/java/awt/print/Book.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:178)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:175)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:175)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didOpen(WorkspaceLspService.scala:388)
+	at scala.meta.metals.lsp.DelegatingScalaService.didOpen(DelegatingScalaService.scala:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 199: jar:file:///C:/Users/pehan/AppData/Local/Coursier/cache/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip/jdk-11.0.23 9/lib/src.zip!/java.desktop/java/awt/print/Book.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 24 more
+
+Jul 15, 2024 11:38:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "textDocument/didClose",
+  "params": {
+    "textDocument": {
+      "uri": "jar:file%3A///C%3A/Users/pehan/AppData/Local/Coursier/cache/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%25252B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip/jdk-11.0.23%2B9/lib/src.zip%21/java.desktop/java/awt/print/Book.java"
+    }
+  }
+}
+java.lang.IllegalArgumentException: Illegal character in opaque part at index 199: jar:file:///C:/Users/pehan/AppData/Local/Coursier/cache/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip/jdk-11.0.23 9/lib/src.zip!/java.desktop/java/awt/print/Book.java
+	at java.base/java.net.URI.create(URI.java:906)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:178)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.$anonfun$toAbsolutePath$3(MtagsEnrichments.scala:175)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.withTryDecode$1(MtagsEnrichments.scala:153)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:175)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:756)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:753)
+	at scala.meta.internal.metals.WorkspaceLspService.didClose(WorkspaceLspService.scala:407)
+	at scala.meta.metals.lsp.DelegatingScalaService.didClose(DelegatingScalaService.scala:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:231)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:198)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.URISyntaxException: Illegal character in opaque part at index 199: jar:file:///C:/Users/pehan/AppData/Local/Coursier/cache/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.23%2B9/OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip/jdk-11.0.23 9/lib/src.zip!/java.desktop/java/awt/print/Book.java
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parse(URI.java:3181)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URI.create(URI.java:904)
+	... 24 more
+
+2024.07.15 23:38:33 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:38:35 INFO  time: compiled practical05-2 in 2.45s
+2024.07.15 23:38:43 INFO  running 'C:\Users\pehan\AppData\Local\Coursier\cache\arc\https\github.com\adoptium\temurin11-binaries\releases\download\jdk-11.0.23%252B9\OpenJDK11U-jdk_x64_windows_hotspot_11.0.23_9.zip\jdk-11.0.23+9\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\pehan\AppData\Local\Temp\metals16360074512217133392\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.07.15 23:38:49 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 11.0.23)
+2024.07.15 23:38:49 INFO  [info] loading settings for project practical05-2-build-build from metals.sbt ...
+2024.07.15 23:38:51 INFO  [info] loading project definition from D:\UCSC\FP\Practical05-2\practical05-2\project\project
+2024.07.15 23:38:52 INFO  [info] loading settings for project practical05-2-build from metals.sbt ...
+2024.07.15 23:38:52 INFO  [info] loading project definition from D:\UCSC\FP\Practical05-2\practical05-2\project
+2024.07.15 23:38:55 INFO  [success] Generated .bloop\practical05-2-build.json
+2024.07.15 23:38:55 INFO  [success] Total time: 3 s, completed Jul 15, 2024, 11:38:55 PM
+2024.07.15 23:38:55 INFO  [info] loading settings for project practical05-2 from build.sbt ...
+2024.07.15 23:38:55 INFO  [info] set current project to hello-world (in build file:/D:/UCSC/FP/Practical05-2/practical05-2/)
+2024.07.15 23:38:56 INFO  [success] Generated .bloop\practical05-2-test.json
+2024.07.15 23:38:56 INFO  [success] Generated .bloop\practical05-2.json
+2024.07.15 23:38:56 INFO  [success] Total time: 0 s, completed Jul 15, 2024, 11:38:56 PM
+2024.07.15 23:38:56 INFO  time: ran 'sbt bloopInstall' in 13s
+2024.07.15 23:38:56 INFO  Disconnecting from Bloop session...
+2024.07.15 23:38:56 INFO  Shut down connection with build server.
+2024.07.15 23:38:56 INFO  Attempting to connect to the build server...
+2024.07.15 23:38:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\UCSC\FP\Practical05-2\.metals\bsp.trace.json or C:\Users\pehan\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.15 23:38:56 INFO  time: Connected to build server in 0.19s
+2024.07.15 23:38:56 INFO  Connected to Build server: Bloop v1.6.0
+2024.07.15 23:38:56 INFO  running doctor check
+2024.07.15 23:38:56 INFO  java targets: practical05-2-test, practical05-2
+2024.07.15 23:38:58 INFO  time: indexed workspace in 1.11s
+Jul 15, 2024 11:40:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 253
+2024.07.15 23:42:00 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:42:00 WARN  Could not load snapshot text for D:\UCSC\FP\Practical05-2\practical05-2\src\main\scala\Main.scala
+2024.07.15 23:42:02 INFO  time: compiled practical05-2 in 1.69s
+2024.07.15 23:42:24 ERROR Failed to tokenize input for semantic tokens for D:\UCSC\FP\Practical05-2\practical05-2\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:23: error: unclosed string interpolation
+        println(s"Book '${book.title}' removed\")
+                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:605)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:239)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.15 23:42:38 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:42:39 INFO  time: compiled practical05-2 in 1.15s
+2024.07.15 23:42:57 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:42:57 INFO  time: compiled practical05-2 in 0.87s
+Jul 15, 2024 11:43:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 582
+2024.07.15 23:43:19 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:43:19 INFO  time: compiled practical05-2 in 0.76s
+2024.07.15 23:44:40 ERROR Failed to tokenize input for semantic tokens for D:\UCSC\FP\Practical05-2\practical05-2\src\main\scala\Main.scala
+scala.meta.tokenizers.TokenizeException: <input>:62: error: unclosed string literal
+        println("Book Found)
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:509)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:361)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:363)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.07.15 23:46:40 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:46:42 INFO  time: compiled practical05-2 in 1.26s
+2024.07.15 23:46:52 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:46:52 INFO  time: compiled practical05-2 in 0.82s
+2024.07.15 23:47:19 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:47:19 INFO  time: compiled practical05-2 in 0.8s
+2024.07.15 23:48:25 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:48:26 INFO  time: compiled practical05-2 in 1.34s
+Jul 15, 2024 11:48:29 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 2302, count -1, length 2602
+2024.07.15 23:49:55 INFO  compiling practical05-2 (1 scala source)
+2024.07.15 23:49:55 INFO  time: compiled practical05-2 in 0.95s
+2024.07.15 23:50:01 INFO  Shutting down server
+2024.07.15 23:50:01 INFO  shutting down Metals
+2024.07.15 23:50:01 INFO  Shut down connection with build server.
+2024.07.15 23:50:01 INFO  Exiting server
